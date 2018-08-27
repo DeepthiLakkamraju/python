@@ -10,4 +10,4 @@ elif i=='o':
 elif i=='u':
 	print "Vowel"
 else:
-	print "Consonent"
+	print "Consonant"
