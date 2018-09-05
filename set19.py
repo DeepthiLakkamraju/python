@@ -1,8 +1,7 @@
-N=int(raw_input())
-for a in range(1,N+1):
-	print a
-K=int(raw_input())
+N,K=map(int,raw_input().split( ))
+N=list(map(int,raw_input().split()))
 sum=0
-for i in range(1,K+1):
+for i in range(0,(K+1)):
 	sum=sum+i
-print sum
+	N.append(sum)
+print(sum)
