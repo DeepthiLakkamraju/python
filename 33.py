@@ -1,2 +1,2 @@
-a=raw_input()
-print a.count(' ')
+k=raw_input()
+print k.count(' ')
